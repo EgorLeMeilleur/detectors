@@ -1,0 +1,33 @@
+torch==2.8.0
+torchaudio==2.8.0
+torchvision==0.23.0
+lightning==2.5.5
+transformers==4.56.2
+tqdm==4.67.1 # progress bar
+timm==1.0.20 # torch models
+matplotlib==3.10.6 # visualization
+seaborn==0.13.2  # visualization
+scikit-learn==1.6.1 # metrics
+rich==14.1.0 # logging
+wandb==0.22.0 # logging
+pydantic==2.11.9 # config
+ruff==0.13.2 # formatting
+fire==0.7.0 # CLI
+pytorch-metric-learning==2.8.1 # losses
+peft==0.15.2 # parameter-efficient fine-tuning
+ipykernel==6.30.1 # jupyter
+autoroot==1.0.1 # root utils
+autorootcwd==1.0.1 # root utils
+
+# --- video reading/writing ---
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+av==16.1.0
+
+# --- for detector.py ---
+# opencv-python==4.11.0.86 # mainly only for detector.py
+opencv-python-headless==4.12.0.88 # mainly for `detector.py`
+onnxruntime-gpu==1.21.0 # for ONNX model inference
+
+# --- for app/run.py ---
+gradio==5.49.1
